@@ -14,7 +14,7 @@ body {
     padding-top: 65px;
   }
   
-  .nav {
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,12 +80,13 @@ body {
   
   .button {
     color: white;
-    text-transform: uppercase;
+    
     font-family: "Open Sans", sans-serif;
   
     background: #69B99D;
     border: 0;
-    padding: 14px 32px 15px;
+    width: 179px;
+    height: 56px;
   
     display: flex;
     align-items: center;
